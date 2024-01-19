@@ -2,9 +2,14 @@ Package: eds2024
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person(
+    given = "Joy",
+    family = "Hu",
+    email = "xinyu.hu20@imperial.ac.uk",
+    role = c("aut", "cre"))
+Description: A minimal example R package created during the first lives session 
+    of Effective Data Science 2023-24. This countains a simple function to 
+    calculate a moving average.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
